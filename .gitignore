@@ -1,0 +1,28 @@
+not_for_deploy/docs/_build/
+not_for_deploy/docs/django/_apidoc/
+*.o
+*.pyc
+*.pyo
+*.tmp
+.*.swp
+.*.swo
+*~
+.DS_Store
+*.sqlite
+*.sqlite3
+*.bak
+*.egg-info/
+cscope.out
+Session.vim
+\#*#
+.#*
+
+*.ipynb
+
+
+# Ignore pycharm/webstorm files
+.idea/
+
+# ignore vscode files
+.vscode/
+
