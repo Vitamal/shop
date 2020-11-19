@@ -51,8 +51,15 @@ python manage.py runserver
 
 ## Import users from csv file 
 In browser open http://127.0.0.1:8000/admin  
-Login as admin username:grandma@example.com, 
-password: test.  Go to the user list, choose the csv file for import and press Import button.
+Login as admin.  Go to the user list, press button "Import from csv file", choose the csv file for import and press Import button.
+
+## Get the user list
+To get the user list goto the  http://127.0.0.1:8000/users/ page.  
+Or go to the http://127.0.0.1:8000/user_list/ page. 
+You get the user list in JSON format:
+
+![User_list](./user_list.png)
+
 
 ## Built With
 
